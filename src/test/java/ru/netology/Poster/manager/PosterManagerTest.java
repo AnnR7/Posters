@@ -49,6 +49,7 @@ class PosterManagerTest {
 
         Assertions.assertArrayEquals(expected, actual);
     }
+
     @Test
     public void shouldFindLastSizeMoreLimit() {
 
@@ -65,6 +66,7 @@ class PosterManagerTest {
 
         Assertions.assertArrayEquals(expected, actual);
     }
+
     @Test
     public void shouldFindLastSizeLessLimit() {
 
@@ -77,6 +79,7 @@ class PosterManagerTest {
 
         Assertions.assertArrayEquals(expected, actual);
     }
+
     @Test
     public void shouldFindLastSizeEqualsCustomLimit() {
 
@@ -91,6 +94,7 @@ class PosterManagerTest {
 
         Assertions.assertArrayEquals(expected, actual);
     }
+
     @Test
     public void shouldFindLastSizeMoreCustomLimit() {
 
@@ -107,6 +111,7 @@ class PosterManagerTest {
 
         Assertions.assertArrayEquals(expected, actual);
     }
+
     @Test
     public void shouldFindLastSizeLessCustomLimit() {
 
